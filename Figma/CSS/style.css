@@ -1,0 +1,1311 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+.container 
+{
+    margin: 0px 200px;
+}
+.header-section
+{
+    background: #ECF2F9;
+}
+.header
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+        
+}   
+
+.logo img
+{
+    width: 80%;
+}
+
+.header-row, .menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.menu a
+{
+    text-align: center;
+    color: #7C8893;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu .home
+{
+    color: #0061E0;
+    justify-items: center;
+}
+
+.mobile-navigation
+{
+    font-size: 34px;
+    color: #0061E0;
+    display: none;
+}
+
+.home div
+{
+    width: 45px;
+    height: 2px;
+    background: #0061E0;
+}
+
+
+.search-icon
+{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #0061E0;
+    font-size: 20px;
+}
+
+.button
+{
+    background: #0061E0;
+    border: 0px;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.banner-section
+{
+    background: #F4F9FF;
+}
+
+.banner
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    gap: 30px;
+    position: relative;
+}
+
+.banner .col
+{
+    width: 50%;
+}
+
+.banner-content
+{
+    display: flex;
+    align-items: center;
+}
+
+.banner-content h1, .banner-content p
+{
+    margin-bottom: 40px;
+}
+
+.banner-content h1
+{
+    font-size: 65px;
+    line-height: 82px;
+    letter-spacing: -3%;
+}
+
+.banner-content p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7C8893;    
+}
+
+.banner-image 
+{
+    position: relative;
+}
+
+.banner-image img
+{
+    width: 100%;
+}
+
+.rating
+{
+    position: absolute;
+    top: 236px;
+    right: -50px;
+    background: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+}
+
+.rating p
+{
+    display: inline;
+    margin-right: 10px;
+    color: #787878;
+}
+
+.rating span
+{
+    font-weight: bold;
+}
+
+.rating i
+{
+    color:#FFCE00;
+}
+
+.offer
+{
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 455px;
+    left: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+}
+
+.offer p
+{
+    font-size: 20px;
+    color: #7C8893;
+    margin-bottom: 5px;
+}
+
+.offer span
+{
+    font-size: 34px;
+    color: #0061E0;
+    font-weight: 600;
+}
+
+.offer .p2
+{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.offer button
+{
+    background: #0061E0;
+    border: 0px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.banner-form
+{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    background: white;
+    padding: 50px;
+    position: absolute;
+    top: 770px;
+    right: 0;
+    left:0;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+    margin-bottom: 200px;
+}
+
+.formbox
+{
+    display: inline;
+    font-size: 14px;
+    color: #7C8893;
+}
+
+.banner-form .col
+{
+    background: white;
+    width: 250px;    
+    border: 1px solid #7C8893;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.banner-form .location
+{
+    border: 1px solid #0061E0;
+    color: #0061E0;
+}
+
+
+.banner-form .col i
+{
+    color: #7C8893;
+}
+.banner-form .location p, .banner-form .location i
+{
+    color: #0061E0;
+}
+.banner-form button
+{
+    display: flex;
+    background: #0061E0;
+    border: 0px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    gap: 10px;
+}
+
+.about
+{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    position: relative;
+    gap: 50px;
+}
+
+.about-content
+{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-content div h2
+{
+    margin-bottom: 20px;
+}
+
+.about-img
+{
+    padding-left: 40px;
+    position: relative;
+}
+
+.about-img img
+{
+    width: 100%;
+}
+
+.subtitle
+{
+    text-transform: uppercase;
+    color: #0061E0;
+    margin-bottom: 20px;
+}
+.about-title, .title
+{
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-description
+{
+    padding-right: 50px;
+}
+
+.about-iconbox
+{
+    display: flex;
+    padding: 0px 50px 20px 0px;
+    column-gap: 30px;
+}
+
+.about-iconbox div
+{
+    display:grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.about-iconbox div img
+{
+    margin-bottom: 10px;
+}
+
+.about-iconbox div p, .about-description, .award p, .usps div p, .agents div p,.agents div span
+{
+    line-height: 26px;
+    color: #7C8893;
+    font-size: 14px;
+}
+
+.learnmore
+{
+    color: #0061E0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.award
+{
+    display: grid;
+    gap: 5px;
+    background: white;
+    padding: 15px 70px 25px 30px;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+    position: absolute;
+    border-radius: 10px;
+    left: 200px;
+    bottom: -100px;
+}
+
+.award span
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.services
+{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-row
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.services-col{
+    flex: 1;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.services-col div
+{
+    place-items: center;
+    gap: 10px;
+}
+
+.iconbg
+{
+    display: grid;
+    place-items: center;
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.services-col div img
+{
+    width: 50px;
+}
+
+.services-col div p
+{
+    line-height: 26px;
+    color: #7C8893;
+    font-size: 14px;
+    margin: 15px 0px 30px 0px;
+}
+
+.services-col div .services-col-title
+{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+.buyahome
+{
+    color: #0061E0;
+}
+
+.findahome1, .findahome2, .findahome3
+{
+    display: flex;
+    gap: 30px;
+    place-items: center;
+    color: #0061E0;
+}
+
+.findahome2, .findahome3
+{
+    color: #7C8893;
+}
+
+.findahome-text
+{
+    font-size: 14px;
+}
+
+.buy
+{
+    border-bottom: 5px solid #0061E0;
+}
+.usp-section
+{
+background: #E2EFFF;
+}
+.usps
+{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.usps div, .agents.div
+{
+    flex-basis: auto;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+.usps div span
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.usps div img
+{
+    width: 60x;
+    padding-bottom: 10px;
+}
+
+.expertise
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.agents
+{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.agents div
+{
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: 5px 5px 15px #4A4A4A26;
+    text-align: left;
+    padding: 20px;
+}
+
+.agents div i
+{
+    color: #0061E0;
+    margin-right: 10px;
+}
+
+.agents div h4
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.calltoaction-section
+{
+    margin-top: 50px;
+    margin-bottom:100px;
+}
+
+.calltoaction
+{
+    background: #E2EFFF;
+   
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calltoaction .cta-content
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.group-icon
+{
+    background: white;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    font-size: 34px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    color: #0061E0;
+}
+
+.cta-content h4
+{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.cta-content p
+{
+    color: #7C8893;
+    font-size: 20px;
+}
+
+.listing
+{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.listingcard
+{
+    position: relative;
+    flex-basis: 350px;
+}
+
+.listingcard h4
+{
+    font-size: 20px;
+}
+
+.listing-box
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.room
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.room-col
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ibox
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.address
+{
+    justify-content: center;
+}
+
+.listingcard p
+{
+    color: #7C8893;
+    font-size: 12px;
+}
+
+.listingcard i
+{
+    font-size: 12px;
+    color: #0061E0;
+}
+
+.listingcard .address
+{
+    margin: 10px 0px 30px 0px; 
+}
+
+
+.listingcard-content
+{
+    padding: 20px 20px 0px 20px;
+    box-shadow: 8px 12px 32px #50505014;
+}
+
+.for
+{
+    background: #0D263B;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.testimonial-section
+{
+    background: #E9F3FF;
+
+}
+
+.testimonial
+{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.reviews
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.reviews .reviewcard
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+.reviews .reviewtext
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    flex: 1;
+    padding: 40px;
+    color: #7C8893;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.triangle
+{
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    height: 25px;
+    width: 30px;
+    background: white;
+}
+
+.reviewperson
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviewperson .div:nth-child(1),.reviewperson .div:nth-child(2)
+{
+    display: flex;
+    background: #0061E0;
+    gap: 0;
+}
+
+.profile1
+{
+    height: 50px;
+    width: 50px;
+    background: url(/Figma/Images/Avatar.png);
+    border-radius: 50%;
+}
+
+.profile2
+{
+    height: 50px;
+    width: 50px;
+    background: url(/Figma/Images/Ellipse\ 54.png);
+    border-radius: 50%;
+}
+
+.profile3
+{
+    height: 50px;
+    width: 50px;
+    background: url(/Figma/Images/Ellipse\ 55.png);
+    border-radius: 50%;
+}
+
+.personpdetails, .persontriangle
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left:  20px;
+}
+
+.persontriangle
+{
+    padding-left: 30px;
+
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.info p:nth-child(2)
+{
+    font-size: 14px;
+    color: black;
+
+}
+
+.info p:nth-child(1)
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.dots, .property-dots
+{   
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 20px;
+}
+
+.dots div
+{
+    height: 10px;
+    width: 10px;
+    background: white;
+    border: 1px solid #0061E0;
+    border-radius: 50%;
+}
+
+.dots div:first-child
+{
+    outline: 1px solid #0061E0;
+}
+
+.testimonial img
+{
+    position: absolute;
+    opacity: 0.2;
+    height: 100px;
+}
+
+.quoteup
+{
+    left: 200px;
+    top: 50px;
+}
+
+.quotedown
+{
+    right: 200px;
+    bottom: 50px;
+}
+
+.properties
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+.property-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.propertycard
+{
+    
+    position: relative;
+    width: 350px;
+}
+
+.propertycard img
+{
+    width: 100%;
+}
+
+.propertycard-content
+{
+    text-align: left;
+    padding: 20px;
+    box-shadow: 2px 5px 15px #28282814;
+}
+
+.personpdetail
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.personpdetail .info p:first-child
+{
+    color: #0061E0;
+}
+
+.propertycard-content h4
+{
+    font-size: 18px;
+    color: #0061E0;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.propertycard-content p, .personpdetail .info p:last-child
+{
+    font-size: 12px;
+    color: #7C8893;
+}
+
+.propertycard-content .address
+{
+    padding-bottom: 10px;
+}
+
+.propertyroom 
+{
+    display: flex;
+    align-items: center;
+    color: #7C8893;
+    gap: 10px;
+}
+
+.personpdetail
+{
+    margin-top: 20px;
+}
+
+.tag 
+{
+    padding: 5px 15px;
+    background:#0061E0;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    top:15px;
+    right:0px;
+}
+
+.property-dots div
+{
+    height: 13px;
+    width: 13px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.property-dots div:first-child
+{
+   
+    background: #0061E0;
+}
+
+.clients-section
+{
+    background: #F5F5F5;
+
+}
+
+.clients
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clients-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clients-outer-row
+{
+    display: grid;
+    place-items: cen;
+}
+.facility
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.facility-row
+{
+    display: flex;
+    gap: 30px;
+}
+
+.facility-img
+{
+    background: linear-gradient(rgba(116, 176, 255, 0.4),rgba(116, 176, 255, 0.4)),
+    url(/Figma/Images/Mask\ group\ -\ facility.png);
+    width: 100%;
+}
+
+.facility-iconbox div div, .facility-iconbox
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.facility-iconbox
+{
+    gap: 50px;
+    padding: 40px 0px;
+}
+
+.facilityicons
+{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.facilityicons div i
+{
+    color: #0061E0;
+}
+
+.facilityicons div
+{
+    color: #7C8893;
+    font-size: 14px;
+}
+
+.facility-img, .outer-ring, .inner-ring, .blog-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-ring
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgba(0, 97, 224, 0.65);
+}
+
+.inner-ring
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #0061E0;
+    color: white;
+    font-size: 28px;
+}
+
+.blog
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.blog-row
+{
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.blog-card, .name-address, .date-cta, .name, .apartment, .date-cta, .date, .blog-content, .newsletter-row, .newsletter-content, .newsletter-box, .footer-row, .footer-company-profile, .footer-quicklinks, .footer-services, .footer-contract, .socials, .footer-address, .footer-phone, .footer-email, .after-footer, .after-footer-right
+{
+    display: flex;
+}
+
+.name-address
+{
+    justify-content: left;
+}
+
+.date-cta
+{
+    justify-content: space-between;
+}
+
+.blog-card, .blog-content, .footer-company-profile, .footer-quicklinks, .footer-services, .footer-contract
+{
+    flex-direction: column;
+}
+
+.name, .apartment, .name-address, .date-cta, .date
+{
+    gap: 10px;
+    align-items: center;
+}
+
+.date-cta p
+{
+    text-transform: uppercase;
+    color: #0061E0;
+    font-weight: 500;
+
+}
+
+.blog-row
+{
+    flex-wrap: wrap;
+}
+
+.blog-card
+{
+    width: 350px;
+}
+
+.blog-content
+{
+    gap: 20px;
+    padding: 30px;
+    box-shadow: 8px 12px 32px #50505014;
+
+}
+
+.name p, .apartment p, .date p
+{
+    font-size: 14px;
+    color: #7C8893;
+}
+
+.name i, .apartment i, .date i
+{
+    font-size: 12px;
+    color: #0061E0;
+}
+
+.blog-content h4
+{
+    font-size: 22px;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.name-address
+{
+    gap: 50px;
+}
+
+.viewall
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #0061E0;
+    padding: 15px 40px;
+    align-items: center;
+    background: transparent;
+    font-size: 16px;
+    color: #7C8893;
+    border-radius: 100px;
+    margin: 50px auto;
+}
+.newsletter-section
+{
+    background: #0061E0;
+
+}
+
+.newsletter
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.newsletter-row
+{
+    align-items: center;
+}
+
+.newsletter-box, .newsletter-content
+{
+    width: 50%;
+}
+
+.newsletter-content
+{
+    flex-direction: column;
+}
+
+.newsletter-content h4
+{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.newsletter-content p
+{
+    font-size: 14px;
+    color: white;
+}
+
+.newsletter-email,.newsletter-button
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.newsletter-email
+{
+    width: 75%;
+    background: white;
+    color: #B0B0B0;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.newsletter-button
+{
+    background:#0D263B;
+    color: white;;
+    font-weight: 500;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.footer-section
+{
+    background: #0D263B;
+}
+
+.footer
+{
+    padding-top: 75px;
+}
+
+.footer-row
+{
+    justify-content: space-between;
+    color: white;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.footer-company-profile,.footer-contract
+{
+    width: 30%;
+}
+.footer-quicklinks, .footer-services
+{
+    width: 20%;
+}
+
+.footer-company-profile, .footer-quicklinks, .footer-services, .footer-contract, .footer-address, .footer-phone, .footer-email
+{
+    gap: 20px;
+}
+
+.footer p
+{
+    font-size: 14px;
+    line-height: 26px;
+    color: #FAFAFA;
+}
+
+.footer h4
+{
+    font-size: 22px;
+}
+
+.socials
+{
+    gap: 10px;
+}
+
+.socials i
+{
+    background: #0061E0;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.footer-contract i
+{
+    margin-top: 5px;
+}
+
+.footer-line
+{
+    height: 1px;
+    background: rgba(210, 210, 210, 0.8);
+}
+
+.after-footer
+{
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.after-footer-right
+{
+    gap: 20px;
+}

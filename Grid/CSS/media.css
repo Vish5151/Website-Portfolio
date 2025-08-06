@@ -1,0 +1,448 @@
+/* <1024px - 1280px > starts here */
+@media(max-width:1280px)
+{
+
+    .hero
+    {
+        height: 575px;
+    }
+
+    .hero-img
+    {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        height: 420px;
+    }
+
+    .hero p
+    {
+        font-size: 160px;
+        color: #E5E5E5;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 200px;
+        padding-top: 00px;
+    }
+
+    .socialicons
+    {
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        right: 150px;
+        top: 275px;
+    }
+
+    .collection1 img
+    {
+        padding: 0px 50px 0px 50px;
+    }
+
+    .client-row span img
+{
+    width: 100px;
+}
+
+.video-section
+{
+    padding: 200px 0px;
+}
+
+ .contact-section
+ {
+    padding: 175px 0px;
+    grid-template-columns: 1fr;
+    gap: 40px;
+ }
+
+ .contact-col
+ {
+    padding: 20px 100px;
+ }
+
+ iframe
+ {
+   
+    height: 400px;
+ }
+
+}
+
+/* <768px-1024px> starts here */
+@media(max-width:1024px)
+{
+    .header
+    {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .header-cta
+    {
+        grid-template-columns: 70px 100px;
+    }
+
+    .header-cta i, .header-navigation
+    {
+        display: none;
+    }
+
+    .hero-img
+    {
+        position: absolute;
+        top: 90px;
+        width: 40%;
+        height: 220px;
+    }
+
+    .hero p
+    {
+        font-size: 160px;
+        color: #E5E5E5;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 180px;
+    }
+
+    .socialicons
+    {
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        right: 50px;
+        top: 300px;
+    }
+
+    .collection1 img
+    {
+        padding: 0px 50px 0px 50px;
+    }
+
+    .client-row
+    {
+        grid-template-columns: repeat(4,25%);
+        justify-items: center;
+    }
+
+    .client-row span img
+    {
+        width: 154px;
+        padding: 20px 0px;
+    }
+
+    .product-card
+    {
+        height: 300px;
+        padding: 0px 30px;
+        margin: 100px 0px 0px 0px;
+    }
+
+    .product2
+    {
+        margin: 0px 0px 100px 0px;
+    }
+
+    .usp-row
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .video-section
+    {
+        padding: 150px 0px;
+    }
+
+    .discover
+ {
+    height: 90vh;
+    padding-right: 100px;
+ }
+
+ .blog-row
+{
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.footer
+{
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-company
+{
+    padding-right: 0px;
+}
+
+}
+
+/* >576px - <768px starts here */
+@media(max-width:768px)
+{
+
+    .container 
+{
+    margin: 0px 50px;
+}
+
+    .hero p
+    {
+        font-size: 110px;
+        color: #E5E5E5;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 180px;
+    }
+
+    .leftarrow, .rightarrow
+    {
+        display: none;
+    }
+
+     .collection1 img
+    {
+        padding: 0px 00px 0px 00px;
+    }
+
+    .collection1 .title
+    {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+        justify-self: center;
+        margin-bottom: -14px;
+    }
+
+    .collection1 p
+    {
+        font-family: "a auto signature", sans-serif;
+        color: rgb(215, 203, 183);
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    .client-row span img
+    {
+        width: 130px;
+        padding: 20px 0px;
+    }
+
+    .portfolio-row
+    {
+        grid-template-columns: 48% 48%;
+        gap: 30px;
+    }
+
+    .portfolio3
+    {
+        display: none;
+    }
+
+    .portfolio-card
+    {
+        height: 400px;
+        margin-top: 50px;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .portfolio-title
+    {
+        grid-template-columns: 100% 1fr;
+    }
+
+    .portfolio .title
+    {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 46px;
+        text-transform: uppercase;
+    }
+
+    .left-right-arrow
+    {
+        display: none;
+    }
+
+    .product-row
+    {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .product-card
+    {
+        height: 400px;
+        padding: 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .usp-row
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .video-section
+    {
+        padding: 50px 0px;
+        margin: 0px 50px;
+    }
+
+     .contact-col
+    {
+        padding: 20px 50px;
+    }
+
+     .discover-section
+ {
+    margin-left: 50px;
+ }
+    .discover
+ {
+    height: 75vh;
+    padding-right: 00px;
+ }
+
+ .footer
+{
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+}
+
+/* <640px and >425px starts here */
+@media(max-width:640px)
+{
+    .hero
+    {
+        height: 425px;
+    }
+
+    .hero-img
+    {
+        position: absolute;
+        top: 90px;
+        width: 50%;
+        height: 300px;
+    }
+
+    .hero p
+    {
+        font-size: 80px;
+        color: #E5E5E5;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 180px;
+    }
+
+    .socialicons
+    {
+        display: none;
+    }
+
+     .collection1 img
+    {
+        padding: 0px 00px 0px 00px;
+    }
+
+    .client-row span img
+    {
+        width: 80px;
+        padding: 20px 0px;
+    }
+
+     .portfolio-row
+    {
+        grid-template-columns: 100%;
+    }
+
+    .portfolio3, .portfolio2
+    {
+        display: none;
+    }
+
+    .portfolio-card
+    {
+        height: 500px;
+        margin-top: 50px;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .portfolio-title
+    {
+        grid-template-columns: 100% 1fr;
+    }
+
+    .product-row
+    {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .product-card
+    {
+        height: 600px;
+        padding: 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .video-section
+    {
+        padding: 60px 0px;
+        margin: 0px 50px;
+    }
+
+    .circle
+ {
+    height: 120px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+ }
+
+ .discover .usp-card h4
+{
+   
+    font-size: 40px;
+}
+
+.blog-row
+{
+    grid-template-columns: 1fr;
+    gap: 100px;
+}
+
+}
+
+/* <425px and >320px starts here */
+@media(max-width:426px)
+{
+
+    .hero p
+    {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .products p, .blog p
+    {
+        font-size: 30px;
+    }
+
+}
+
+/* <320px starts here */
+@media(max-width:321px)
+{
+     .hero p
+    {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+}

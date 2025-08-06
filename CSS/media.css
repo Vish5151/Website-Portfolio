@@ -1,0 +1,564 @@
+/* Media Query under 1400px starts here */
+@media(max-width:1400px)
+{
+    .hero
+    {
+        padding: 0px 100px;
+    }
+
+    .hero-container
+    {
+        height: 80vh;
+    }
+
+    .hero h1, .hero span
+    {
+        font-size: 80px;
+    }
+
+    .about-content p
+    {
+        font-size: 35px;
+        line-height: 60px;
+        font-weight: 300;
+        letter-spacing: 0.26px;
+    }
+
+    .text-highlight
+    {
+        background: rgb(214, 213, 213);
+        color: #252525;
+        padding: 3px 3px;
+        font-size: 35px;
+    }
+
+    .bold-text
+    {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+}
+
+/* Media Query under 1200px starts here */
+@media(max-width:1200px)
+{
+
+    .hero
+    {
+        padding: 0px 50px;
+    }
+
+    .hero h1, .hero span
+    {
+        font-size: 70px;
+    }
+
+    .info1
+    {
+        right: 325px;
+        top: 100px;
+    }
+
+    .info2
+    {
+        right: 375px;
+        top: 400px;
+    }
+
+    .info-before
+    {
+        left: 355px;
+        top: 100px;
+    }
+
+
+}
+
+/* Media Query under 1024px starts here */
+@media(max-width:1024px)
+{
+    
+    li
+    {
+        margin: 0px 20px;
+    }
+
+    .hero
+    {
+        padding: 0px 0px;
+    }
+
+    .hero h1, .hero span
+    {
+        font-size: 65px;
+    }
+
+    .hero-title
+    {
+        padding: 15px 30px;
+        font-size: 26px;
+        top:-30px;
+    }
+
+    .about-image
+    {
+        margin-top: 0px;
+    }
+
+    .about-image img
+    {
+        width: 400px;
+    }
+
+    .about-skills
+    {
+        margin-top: 0px;
+        grid-template-columns: repeat(2,250px);
+        gap: 50px;
+    }
+
+    .about-image-info 
+    {
+        display: none;
+    }
+
+    .services-row
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+     .about-content p
+    {
+        font-size: 28px;
+        line-height: 45px;
+        font-weight: 300;
+        letter-spacing: 0.26px;
+    }
+
+    .text-highlight
+    {
+        background: rgb(214, 213, 213);
+        color: #252525;
+        padding: 3px 3px;
+        font-size: 28px;
+    }
+
+    .bold-text
+    {   
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .portfolio-row
+    {
+        grid-template-columns: repeat(2,1fr);
+        gap:30px;
+    }
+
+    .servicecard1
+    {
+        border-right: 0.5px solid rgbA(214, 213, 213, 0.3);
+        border-bottom: 0.5px solid rgbA(214, 213, 213, 0.3);
+    }
+
+    .servicecard2
+    {
+        border-bottom:0.5px solid rgbA(214, 213, 213, 0.3);
+    }
+
+    .servicecard3
+    {
+        border-bottom:0px solid rgbA(214, 213, 213, 0.3);
+        border-left: 0px solid rgbA(214, 213, 213, 0.3);
+        border-right:0.5px solid rgbA(214, 213, 213, 0.3);
+    }
+
+    .servicecard4
+    {
+        border-right:0px solid rgbA(214, 213, 213, 0.3);
+    }
+
+     .servicecard5
+    {
+        border-top:0.5px solid rgbA(214, 213, 213, 0.3);
+        border-right:0.5px solid rgbA(214, 213, 213, 0.3);
+    }
+
+    .servicecard6
+    {
+        border-top:0.5px solid rgbA(214, 213, 213, 0.3);
+        border-left: 0px solid rgbA(214, 213, 213, 0.3);
+    }
+
+    .icon
+    {
+        margin: auto 0;
+        
+    }
+
+    .experience-timeline:before
+    {
+        margin: auto 0;
+        left: 6px;
+    }
+
+    .date-content::before
+    {
+        left: 4%;
+    }
+
+    .date
+    {
+        width: 100%;
+        position: absolute;
+        top:32%;
+    }
+
+    .experience-timeline .timeline:nth-child(2), .experience-timeline .timeline:nth-child(4)
+    {
+        flex-direction: row-reverse;
+    }
+
+    .experience-timeline .timeline:nth-child(2) .timeline-content, .experience-timeline .timeline:nth-child(4) .timeline-content
+    {
+    padding-right: 50px;
+    text-align: left;
+    }
+
+    .timeline-content
+    {
+        padding-left: 0px;
+    }
+
+
+}
+
+/* Media Query under 768px starts here */
+@media(max-width:768px)
+{
+    .section
+    {
+        margin: 0px 50px;
+    }
+
+    .navigation
+    {
+        display: none;
+    }
+
+    .hero h1, .hero span
+    {
+        font-size: 50px;
+    }
+
+    .hero-container
+    {
+        height: 86vh;
+    }
+
+      .about-skills
+    {
+        grid-template-columns: repeat(1,300px);
+        gap: 50px;
+    }
+
+     .about-content p
+    {
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 0.26px;
+    }
+
+    .text-highlight
+    {
+        padding: 3px 3px;
+        font-size: 24px;
+    }
+
+    .bold-text
+    {   
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+     .date
+    {
+        top:30%;
+    }
+
+    .service-col 
+    {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* Media Query under 576px starts here */
+@media(max-width:576px)
+{
+    
+    .hero h1, .hero span
+    {
+        font-size: 35px;
+    }
+
+    .hero-container
+    {
+        height: 86vh;
+    }
+
+      .about-content p
+    {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.26px;
+        padding: 0px 30px;
+    }
+
+     .text-highlight
+    {
+        padding: 3px 3px;
+        font-size: 18px;
+    }
+
+    .bold-text
+    {   
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+      .about-skills
+    {
+        grid-template-columns: repeat(1,300px);
+        gap: 50px;
+    }
+
+    .skill-text::before
+    {
+        width: 80%;
+    }
+
+    .about-skills:hover .skilltext1::after
+    {
+        width: 64%; 
+    }
+
+    .about-skills:hover .skilltext2::after
+    {
+        width: 66%; 
+    }
+
+    .about-skills:hover .skilltext3::after
+    {
+        width:70%; 
+    }
+
+    .about-skills:hover .skilltext4::after
+    {
+        width:68%; 
+    }
+
+    .portfolio-row
+    {
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+    }
+
+    .service-col
+    {
+        border: 0px solid rgbA(214, 213, 213, 0.3);
+    }
+
+
+    .services-row
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-timeline
+    {
+        gap: 50px;
+        padding: 20px 0px;
+    }
+
+    .timeline
+    {
+        flex-direction: column;
+        gap: 30px;
+    }    
+
+    .experience-timeline .timeline:nth-child(2), .experience-timeline .timeline:nth-child(4)
+    {
+        flex-direction: column-reverse;
+    }
+    .icon
+    {
+        margin: 0;
+    }
+
+    .icon::before, .icon::after
+    {
+        top: 52px;
+    }
+
+    .timeline-content
+    {
+        padding-left: 50px;
+    }
+
+     .footer img
+    {
+        width: 80px;
+    }
+
+    .socials
+    {
+        gap: 0px;
+    }
+    
+}
+
+/* Media Query under 375px starts here */
+@media(max-width:376px)
+{
+    .section
+    {
+        margin: 0px 30px;
+    }
+
+      .hero h1, .hero span
+    {
+        font-size: 30px;
+    }
+
+    .hero-title
+    {
+        padding: 12px 25px;
+        font-size: 20px;
+        top: -24px;
+    }
+    
+
+    .about
+    {
+        padding: 100px 100px;
+    }
+
+     .about-image img
+    {
+        width: 200px;
+    }
+
+      .about-content p
+    {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.26px;
+        padding: 0px 30px;
+    }
+
+    .text-highlight
+    {
+        padding: 3px 3px;
+        font-size: 18px;
+    }
+
+    .bold-text
+    {   
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+     .date
+    {
+        top:30%;
+    }
+
+    .experience-timeline .timeline:nth-child(2) .timeline-content, .experience-timeline .timeline:nth-child(4) .timeline-content
+    {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .service-col 
+    {
+        text-align: center;
+        padding: 00px 0px 50px 0px ;
+    }
+
+     .footer img
+    {
+        width: 50px;
+    }
+
+    .footer h4
+    {
+        font-size: 24px;
+    }
+
+    .footer p
+    {
+        font-size: 14px;
+    }
+}
+
+/* Media Query under 320px starts here */
+@media(max-width:320px)
+{
+
+     .hero h1, .hero span
+    {
+        font-size: 28px;
+    }
+
+    .about-image img
+    {
+        width: 200px;
+    }
+
+      .about-content p
+    {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.26px;
+    }
+
+    .text-highlight
+    {
+        padding: 3px 3px;
+        font-size: 18px;
+    }
+
+    .bold-text
+    {   
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .service-col 
+    {
+        text-align: center;
+        padding: 00px 0px 50px 0px;
+    }
+
+    .footer img
+    {
+        width: 50px;
+    }
+
+    .footer h4
+    {
+        font-size: 24px;
+    }
+
+    .footer p
+    {
+        font-size: 14px;
+    }
+
+    .date
+    {
+        top:32%;
+    }
+}

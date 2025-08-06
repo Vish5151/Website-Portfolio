@@ -1,0 +1,807 @@
+body
+{
+    background: #252525;
+    color: rgb(214, 213, 213);
+    font-family: "Roboto", sans-serif;
+}
+
+.hero h1
+{
+    font-family: sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section
+{
+    margin: 0px 100px;
+}
+
+span
+{
+    font-size: 46px;
+}
+
+.section, .header, .hero, .loading, .about, .title, .about-row, .about-image, .about-skills-card, .skill-text, .timeline, .date, .timeline-content, .experience-timeline, .portfolio, .services, .footer, .socials, .loading
+
+{
+    display: flex;
+}
+
+.about-skills, .services-row, .portfolio-row
+{
+    display: grid;
+}
+
+.section, .hero, .title, .about, .about-row, .skill-text, .date, .timeline-content, .experience-timeline, .services, .footer
+
+{
+    flex-direction: column;  
+}
+
+.header, .hero-title, .hero, .about, .title, .about-image, .date, .footer, .loading
+{
+    justify-content: center;
+}
+
+.header, .hero, .title, .about, .about-skills-card, .date, .footer
+{
+    align-items: center;
+}
+
+.hero-container
+{
+    align-content: center;
+}
+
+.header-col
+{
+    flex-basis: 50%;
+    padding: 20px 0px;
+}
+
+.navigation ul
+{
+    text-align: right;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 25px;
+}
+
+a
+{
+    color: rgb(214, 213, 213);
+    text-decoration: none;
+}
+
+.hero-container
+{
+    background: url(/Images/banner-image.png);
+    background-size: cover;
+    height: 87vh;
+}
+
+.hero
+{
+    padding: 0px 200px;
+}
+
+.hero h1
+{
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.hero span
+{
+    color: #0A66C2;
+    font-size: 90px;
+}
+
+.hero-title
+{
+    background: rgb(214, 213, 213);
+    display: inline;
+    padding: 20px 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-left: 8px solid #0A66C2;
+    position: absolute;
+    top: -37px;
+    color: #252525;
+}
+
+.hero-title::after
+{
+    content: " ";
+    animation-name: hero-title;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-title
+{
+    0%   {content: "designer";}
+    33.33%  {content: "visioner";}
+    66.66%  {content: "creator";}
+    100%   {content: "designer";}
+}
+
+.loading
+{
+    height: 3px;
+    width: 100%;
+    background: rgb(214, 213, 213);
+    margin-top: 55px;
+    position: relative;
+}
+
+.hero-bar
+{
+    height: 3px;
+    background: #0A66C2;
+    animation-name: hero-loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-loading
+{
+    0%   {width: 0px;}
+    100%   {width: inherit;}
+}
+
+.about-container, .portfolio-container
+{
+    background: #3A3A3A;
+}
+
+.about, .portfolio, .services, .experience, .footer-container
+{
+    padding: 100px 0px;
+}
+
+.title
+{
+    padding: 0px 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px rgbA(214, 213, 213, 0.3) solid;
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+}
+
+.title h3
+{
+    font-size: 36px;
+    font-weight: 600;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.underline
+{
+    height: 2px;
+    width:80px;
+    background: rgb(214, 213, 213);
+}
+
+.about-row
+{
+    gap: 50px;
+}
+
+.about-skills
+{
+    grid-template-columns: repeat(2,400px);
+    gap: 100px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.about-content p
+{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 300;
+    letter-spacing: 0.26px;
+}
+
+.about-text1
+{
+    margin-bottom: 35px;
+}
+
+.text-highlight
+{
+    background: rgb(214, 213, 213);
+    color: #252525;
+    padding: 4px 4px;
+}
+
+.bold-text
+{
+    font-weight: 600;
+}
+
+.about-image
+{
+    position: relative;
+    margin-top: 50px;
+}
+
+.info1
+{
+    position: absolute;
+    display: inline;
+    right: 475px;
+    top: 100px;
+}
+
+.info2
+{
+    position: absolute;
+    display: inline;
+    right: 500px;
+    top: 300px;
+}
+
+.info-before
+{
+    position: absolute;
+    display: inline;
+    left: 475px;
+    top: 200px;
+}
+
+.about-image img
+{
+    width: 500px;
+}
+
+.about-image-info-circle,.about-image-info-circle2
+{
+    height: 50px;
+    width: 50px;
+    background: rgb(214, 213, 213);
+    border-radius: 50%;
+}
+
+.about-image-info-circle::before
+{
+    content: "";
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #0A66C2;
+    display: block;
+}
+
+.info-before .about-image-info-circle2::after
+{
+    content: "";
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    background: #0A66C2;
+    display: block;
+}
+
+.about-image-characteristic
+{
+    position: absolute;
+    top:0;
+    left: 175px;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.about-image-characteristic2
+{
+    position: absolute;
+    top:0;
+    right: 175px;
+    width: 250px;
+    padding-right: 20px;
+}
+
+.about-image-title
+{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.about-image-description
+{
+    font-size: 18px;
+    letter-spacing: 0.26px;
+    line-height: 27px;
+}
+
+.about-image-characteristic2
+{
+    text-align: right;
+}
+
+.about-skills-card
+{
+    gap: 10px;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+}
+
+.skill-box
+{
+    height: 30px;
+    width: 30px;
+    background: #0A66C2;
+}
+
+.skill-text
+{
+    width: 100%;
+}
+
+.skill-text::after
+{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0%;
+    background: #0A66C2;
+    margin-top: -5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    transition: 1s;
+}
+
+.skill-text::before
+{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background:rgb(214, 213, 213);
+    margin-top: -5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+}
+
+.about-skills:hover .skilltext1::after
+{
+    width: 80%; 
+}
+
+.about-skills:hover .skilltext2::after
+{
+    width: 86%; 
+}
+
+.about-skills:hover .skilltext3::after
+{
+    width:95%; 
+}
+
+.about-skills:hover .skilltext4::after
+{
+    width: 91%; 
+}
+
+.experience-timeline
+{
+    position: relative;
+    gap: 100px;
+    padding: 50px 0px;
+}
+
+.experience-timeline:before
+{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #0A66C2;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.timeline
+{
+    position: relative;
+}
+
+.icon
+{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    margin: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.icon::before, .icon::after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 auto;
+    transition: all 0.33s ease-out 0s;
+}
+
+.icon::before
+{
+    background: rgb(214, 213, 213);
+    border: 2px solid #252525;
+    left: -3px;
+}
+
+.icon::after
+{
+    border: 2px solid white;
+    left: 3px;
+}
+
+.date-content, .timeline-content
+{
+    flex-basis: 50%;
+    position: relative;
+    align-content: center;
+}
+
+.date-content::before
+{
+    content: "";
+    width: 38.5%;
+    height: 2px;
+    background: #0A66C2;
+    margin: auto 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.date-outer
+{
+    height: 125px;
+    width: 125px;
+    text-align: center;
+}
+
+.date-outer::after, .date-outer::before
+{
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.33s ease-out 0s;
+}
+
+.date-outer::before
+{
+    background: rgb(214, 213, 213);
+    border: 2px solid #252525;
+    left: -6px;
+}
+
+.date-outer::after
+{
+    border: 2px solid white;
+    left: 6px;
+}
+
+.date
+{
+    width: 100%;
+    position: absolute;
+    top: 28%;
+}
+
+.date p
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: #252525;
+}
+
+.date h4
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: #3A3A3A;
+}
+
+.timeline-content
+{
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.timeline-content h4
+{
+    font-size: 24px;
+    color: #0A66C2;
+    margin-bottom: 20px;
+}
+
+.timeline-content p
+{
+    line-height: 28px;
+}
+
+.experience-timeline .timeline:nth-child(2) .date-content::before, .experience-timeline .timeline:nth-child(4) .date-content::before 
+{
+   left: 15px;
+}
+
+.experience-timeline .timeline:nth-child(2) .timeline-content, .experience-timeline .timeline:nth-child(4) .timeline-content
+{
+   padding-right: 50px;
+   text-align: right;
+}
+
+.experience-timeline .timeline:hover .icon::before
+{
+    left: 3px;
+}
+
+.experience-timeline .timeline:hover .icon::after
+{
+    left: -3px;
+}
+
+.experience-timeline .timeline:hover .date-outer::after
+{
+    left: -6px;
+}
+
+.experience-timeline .timeline:hover .date-outer::before
+{
+    left: 6px;
+}
+
+.portfolio-row
+{
+    flex: 1;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.portfolio-row
+{
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+}
+
+.portfolio-card
+{
+    height: 400px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio1
+{
+    background: url(/Images/Figma.png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+
+.overlay
+{
+    background: linear-gradient(rgbA(37, 37, 37, 0.3), rgbA(37, 37, 37, 0.3));
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portfolio-card:hover .overlay
+{
+    opacity: 1;
+}
+
+.portfolio2
+{
+    background: url(/Images/flex.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio3
+{
+    background: url(/Images/PSD.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio4
+{
+    background: url(/Images/grid.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-cta
+{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background: #252525;
+    color: rgb(214, 213, 213);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 30px;
+    transition: 1s;
+}
+
+.portfolio-card:hover .portfolio-cta
+{
+    left: 75%;
+}
+
+.portfolio-cta i
+{
+    rotate: 0deg;
+    transition: 0.5s;
+}
+
+.portfolio-card:hover .portfolio-cta i
+{
+    rotate: -45deg;
+}
+
+.portfolio-button
+{
+    background: #252525;
+    color: rgb(214, 213, 213);
+    padding: 20px 0px;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50%;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    bottom: 30px;
+    left: 10%;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.5s;
+    text-decoration: none;
+}
+
+.portfolio-card:hover .portfolio-button
+{
+    opacity: 1;
+}
+
+.services-row
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-col 
+{
+    text-align: center;
+    padding: 50px;
+}
+
+.service-col img
+{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.service-title
+{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0A66C2;
+}
+
+.service-description
+{
+    line-height: 28px;
+}
+
+.servicecard1
+{
+    border-right: 0.5px solid rgbA(214, 213, 213, 0.3);
+    border-bottom: 0.5px solid rgbA(214, 213, 213, 0.3);
+}
+
+.servicecard3
+{
+    border-bottom:0.5px solid rgbA(214, 213, 213, 0.3);
+    border-left: 0.5px solid rgbA(214, 213, 213, 0.3);
+}
+
+.servicecard2
+{
+    border-bottom:0.5px solid rgbA(214, 213, 213, 0.3);
+}
+
+.servicecard4
+{
+    border-right:0.5px solid rgbA(214, 213, 213, 0.3);
+}
+
+.servicecard6
+{
+    border-left:0.5px solid rgbA(214, 213, 213, 0.3);
+}
+
+.footer
+{
+    gap: 30px;
+}
+
+.footer-container
+{
+    background: #3A3A3A;
+}
+
+.footer h4
+{
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.socials
+{
+    gap: 30px;
+}
+
+.socials img
+{
+    height: 42px;
+}
+
